@@ -2,8 +2,6 @@ p {
     margin: 0%;
 }
 
-mat-toolbar {
-    padding: 0%;
-    display: flex;
-    position: fixed;
+.example-spacer {
+    flex: 1 1 auto;
 }

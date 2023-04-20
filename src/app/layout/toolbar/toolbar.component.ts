@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { SideNavService } from '../side-nav.service';
+import { TimeService } from 'src/app/core/services/time.service';
 
 @Component({
   selector: 'app-toolbar',
@@ -8,10 +9,6 @@ import { SideNavService } from '../side-nav.service';
 })
 export class ToolbarComponent {
   constructor(private sidenav: SideNavService) {
-
-  }
-
-  ngOnInit() {
 
   }
 

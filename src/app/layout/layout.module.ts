@@ -8,15 +8,19 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { SideNavService } from './side-nav.service';
 import { LayoutComponent } from './layout.component';
 import { AlumnosModule } from '../alumnos/alumnos.module';
+import { RelojComponent } from './reloj/reloj.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
     declarations: [
         MenuComponent,
         ToolbarComponent,
-        LayoutComponent
+        LayoutComponent,
+        RelojComponent
     ],
     imports: [
         MatToolbarModule,
+        CommonModule,
         MatSidenavModule,
         MatIconModule,
         MatButtonModule,
