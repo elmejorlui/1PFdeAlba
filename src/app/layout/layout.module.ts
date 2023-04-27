@@ -10,6 +10,8 @@ import { LayoutComponent } from './layout.component';
 import { AlumnosModule } from '../alumnos/alumnos.module';
 import { RelojComponent } from './reloj/reloj.component';
 import { CommonModule } from '@angular/common';
+import { MatListModule } from '@angular/material/list';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
     declarations: [
@@ -25,6 +27,8 @@ import { CommonModule } from '@angular/common';
         MatIconModule,
         MatButtonModule,
         AlumnosModule,
+        MatListModule,
+        RouterModule,
     ],
     exports: [
         MenuComponent,
